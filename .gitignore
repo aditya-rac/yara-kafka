@@ -1,0 +1,5 @@
+# Ignore environment variables
+.env
+
+# Ignore local development files
+*.log
