@@ -158,7 +158,7 @@ bash
 
  Breakdown
 1. Dynamic Stream (dynstr.py)
-    This script captures live network traffic and sends the data to a Kafka topic (real-network-traffic).
+    This script captures live network traffic from TCPDump and sends the data to a Kafka topic (real-network-traffic).
 
 Key components:
     KafkaProducer: Streams captured network traffic into Kafka.
